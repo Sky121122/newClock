@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: palegoldenrod;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.containt{
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgb(69, 69, 69);
+}
+.month{
+    margin: 0;
+    background-color: orangered;
+    padding: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.month:hover{
+    background-color: teal;
+    transition: all 1s;
+    cursor: pointer;
+}
+.day{
+    margin: 0;
+    color: darkslategrey;
+    font-size: 20px;
+}
+.date{
+    font-size: 90px;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ;
+}
+.date:hover{
+    font-size: 95px;
+    cursor: pointer;
+}
+.year{
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+button{
+    padding:5px 10px;
+    margin-bottom: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: all 1s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: teal;
+}
